@@ -17,6 +17,7 @@
 	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script src="bxslider/dist/jquery.bxslider.min.js"></script>
+	<script src="js/api.js"></script>
 	<script>
 		$(document).ready(function(){
 		$('.slider').bxSlider();
@@ -48,7 +49,7 @@
 			<h1>Présentation de l'équipe</h1>
 			
 			<div class="paragraphe-type1">
-				<p>la team CTR regroupe une bande de joyeux drilles qui se connaissent au moins de vue. Il nous plaît de jouer à R6 ensemble, en classé ou non, 
+				<p>La team CTR regroupe une bande de joyeux drilles qui se connaissent au moins de vue. Il nous plaît de jouer à R6 ensemble, en classé ou non, 
 				nous sommes capables du meilleur comme du pire sur le chat, du jeu le plus admirable au plus trash, on a quand même des limites : 
 				pas de Maestro ou de Clash chez nous !<br>
 				Pour ce qui est des rageux qui disent en jeu "What the fuck CTR ? Try-harding in casual ? Please go ranked." ou encore "Vous êtes une team mais vous êtes
@@ -69,6 +70,16 @@
 					Milou est aussi à l'aise en attaque qu'en défense et cet invétéré joueur de Twitch se plait à taser les ennemis pour avoir le plus d'aides possible.
 					C'est aussi le genre de joueur qui, quand il joue occasionnellement Lesion, n'hésite pas à placer ses mines Gu près des tapis rouges de Frost pour avoir le kill.
 					Bref, il peut s'avérer toxique notre chef.</p>
+					<div class="ratio-main">
+						<div class="ratio-kills">
+							<hr size="1" color="#333" align=left width="100%"> 
+							<p><id="kd"></p>
+						</div>
+						<div class="ratio-games">
+							<hr size="1" color="#333" align=right width="100%"> 
+							<p>Ici une API pour le ratio des games</p>
+						</div>
+					</div>
 				</div>
 				<div class="slider">	
 				
@@ -88,6 +99,8 @@
 				</div>	
 				
 			</div>
+			
+			
 			
 			<div class="content-type2">
 			
@@ -115,6 +128,16 @@
 					Pour ce qui est de l'attaque, ben là aussi il cherche a mettre le plus de One-tap possible et pour se faire, si la map s'y prête,
 					il peut se mettre souvent au font de celle-ci en mode sniper (mais il a de l'amour propre et donc n'utilise pas Glaz) a essayer d'avoir ceux qui aurait la mauvaise idée de passer devant des fenêtres.
 					Et oui parfois il reste plus que 30 secondes et il se met a courir comme un fou pour rejoindre l'objectif.</p>
+					<div class="ratio-main">
+						<div class="ratio-kills">
+							<hr size="1" color="#333" align=left width="100%"> 
+							<p>Ici une API pour le ratio des kills</p>
+						</div>
+						<div class="ratio-games">
+							<hr size="1" color="#333" align=right width="100%"> 
+							<p>Ici une API pour le ratio des games</p>
+						</div>
+					</div>
 				</div>
 				<div class="illustration-team-type2" >
 					<img class="image-logo" src="./assets/images/Horyzon.png">
@@ -135,6 +158,16 @@
 					mais ne prêtez pas attention à ces villenies et aux calomniateurs qui les répandent. La question étant surtout de savoir s'il Clutche souvent ou non ?
 					La réponse in the game... (SPOILER alerte : Non)<br>
 					Ah et sinon c'est un super joueur de Mozzie.</p>
+					<div class="ratio-main">
+						<div class="ratio-kills">
+							<hr size="1" color="#333" align=left width="100%"> 
+							<p>Ici une API pour le ratio des kills</p>
+						</div>
+						<div class="ratio-games">
+							<hr size="1" color="#333" align=right width="100%"> 
+							<p>Ici une API pour le ratio des games</p>
+						</div>
+					</div>
 				</div>
 				<div class="slider">
 					
@@ -182,6 +215,16 @@
 					Cette joyeuse exubérance est aussi la marque d'un joueur de qualité qui aime accompagner son pote breacheur pour... breacher puisqu'il joue souvent Tatcher.
 					Sinon il fait pas mal de rooming en défense pour casser les pieds de ses vis à vis.<br>
 					PS : n'essayer pas de communiquer en Anglais avec lui le pauvre n'a toujours pas son TOEIC et a un niveau inférieur à celui d'un enfant en 5ème.</p>
+					<div class="ratio-main">
+						<div class="ratio-kills">
+							<hr size="1" color="#333" align=left width="100%"> 
+							<p>Ici une API pour le ratio des kills</p>
+						</div>
+						<div class="ratio-games">
+							<hr size="1" color="#333" align=right width="100%"> 
+							<p>Ici une API pour le ratio des games</p>
+						</div>
+					</div>
 				</div>
 				<div class="illustration-team-type2" >
 					<img class="image-logo" src="./assets/images/Neklaos.jpg">
@@ -201,6 +244,16 @@
 					Il est là pour ouvrir des murs et est un expert en pose de pièges en défense. Ce joueur sympathique, mais à l'humour douteux, 
 					est également un bon gars en ce qui concerne la prise d'informations, et c'est normal puisque sur R6 quand on est mort on 
 					peut toujours aller surveiller les caméras ou les drones.</p>
+					<div class="ratio-main">
+						<div class="ratio-kills">
+							<hr size="1" color="#333" align=left width="100%"> 
+							<p>Ici une API pour le ratio des kills</p>
+						</div>
+						<div class="ratio-games">
+							<hr size="1" color="#333" align=right width="100%"> 
+							<p>Ici une API pour le ratio des games</p>
+						</div>
+					</div>
 				</div>
 				<div class="slider">
 					
@@ -243,7 +296,17 @@
 					<h2 class="title-right">Griffern.CTR </h2>
 					<h3 class="title-right">Il joue a Rocket League... No comment</h3>
 					<p>Quand il ne joue pas a des jeux dont la crédibilité est nulle il lui arrive parfois de jouer à R6.
-					Son expérience du jeu s'avère donc limité mais gare ! Quand il tire il tire son coup ce gars se fait une full team.</p>
+					Son expérience du jeu s'avère donc limité mais gare ! Quand il tire son coup ce gars se fait une full team.</p>
+					<div class="ratio-main">
+						<div class="ratio-kills">
+							<hr size="1" color="#333" align=left width="100%"> 
+							<p>Ici une API pour le ratio des kills</p>
+						</div>
+						<div class="ratio-games">
+							<hr size="1" color="#333" align=right width="100%"> 
+							<p>Ici une API pour le ratio des games</p>
+						</div>
+					</div>
 				</div>
 				<div class="illustration-team-type2" >
 					<img class="image-logo" src="./assets/images/Griffern.png">
@@ -261,6 +324,16 @@
 					<h3 class="title-left">Le fantôme</h3>
 					<p>... Il y a quelqu'un ? ...
 					Vous l'aurez deviné ce n'est pas souvent que l'on voit ce gars là qui a réussit l'exploit de concrétiser l'expression de "la saint glinglin".</p>
+					<div class="ratio-main">
+						<div class="ratio-kills">
+							<hr size="1" color="#333" align=left width="100%"> 
+							<p>Ici une API pour le ratio des kills</p>
+						</div>
+						<div class="ratio-games">
+							<hr size="1" color="#333" align=right width="100%"> 
+							<p>Ici une API pour le ratio des games</p>
+						</div>
+					</div>
 				</div>
 				<div class="slider">
 					

@@ -1,0 +1,1 @@
+ajaxGet("https://r6tab.com/api/search.php?platform=uplay&search=Milou.CTR"{});
