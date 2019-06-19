@@ -100,8 +100,8 @@ img {
 .main {
 	margin-left: auto;
     margin-right: auto;
-	padding-left:7%;
-	padding-right:7%;	
+	padding-left:10%;
+	padding-right:10%;	
 }
 	
 .content-type1 {
@@ -116,6 +116,7 @@ img {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
+	align-items: flex-start;
 }
 
 .paragraphe-type1 {
